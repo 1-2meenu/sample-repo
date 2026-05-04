@@ -3,6 +3,7 @@ import java.util.*;
 public class Main{
     public static void main(String[] args){
         int[] arr={-2,-2,-2,-1,-1,-1,0,0,0,1,1,1,2,2,2};
+        Arrays.sort(arr);
         List<List<Integer>>list=new ArrayList<>();
         for(int i=0;i<=arr.length-3;i++){
             if(i>0 && arr[i]==arr[i-1]){
